@@ -6,19 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Orderserver" />
-        <module name="Userserver" />
+        <module name="Product-server" />
+        <module name="User-server" />
+        <module name="Order-server" />
+        <module name="Configserver" />
+        <module name="Stock-server" />
         <module name="ShopCart-server" />
-        <module name="Productserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Orderserver" target="1.8" />
+      <module name="Productserver" target="1.8" />
+      <module name="Userserver" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Configserver" options="-parameters" />
       <module name="OnlineShop" options="-parameters" />
+      <module name="Order-server" options="-parameters" />
       <module name="Orderserver" options="-parameters" />
+      <module name="Product-server" options="-parameters" />
       <module name="Productserver" options="-parameters" />
       <module name="ShopCart-server" options="-parameters" />
+      <module name="Stock-server" options="-parameters" />
+      <module name="User-server" options="-parameters" />
       <module name="Userserver" options="-parameters" />
     </option>
   </component>

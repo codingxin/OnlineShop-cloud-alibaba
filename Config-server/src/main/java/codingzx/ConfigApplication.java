@@ -1,8 +1,11 @@
-package com.codingzx;
+package codingzx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @author codingzx
@@ -11,9 +14,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ShopCartApplication {
+public class ConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShopCartApplication.class);
+        SpringApplication.run(ConfigApplication.class);
     }
+
 }

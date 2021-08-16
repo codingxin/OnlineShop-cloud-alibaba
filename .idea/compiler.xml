@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Product-server" />
-        <module name="User-server" />
-        <module name="Order-server" />
         <module name="Configserver" />
+        <module name="User-server" />
         <module name="Stock-server" />
         <module name="ShopCart-server" />
+        <module name="Order-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Order-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Product-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Sentinel-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ShopCart-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SkillSell-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Stock-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/User-server" charset="UTF-8" />
   </component>
 </project>

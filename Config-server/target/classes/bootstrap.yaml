@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        shared-configs[0]:  #shared-configs是一个列表
+          data_id: redis.yaml
+          group: DEFAULT_GROUP #可以不写 默认值为DEFAULT_GROUP
+          refresh: true #默认是false，如果需要支持自动刷新需要配置true,搭配@RefreshScope实现动态刷新
+        shared-configs[1]:  #shared-configs是一个列表
+            data_id: mysql.yaml
+            group: DEFAULT_GROUP #可以不写 默认值为DEFAULT_GROUP
+            refresh: true #默认是false，如果需要支持自动刷新需要配置true,
+  profiles:
+    active: prod  #表示我需要向配置中心索要的生产环境的配置

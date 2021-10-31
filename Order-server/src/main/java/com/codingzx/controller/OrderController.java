@@ -1,9 +1,13 @@
 package com.codingzx.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.List;
 
 
 /**
@@ -17,13 +21,40 @@ public class OrderController {
     private RestTemplate restTemplate;
 
     @GetMapping("/product/create")
-    public String createOrder(String userName,Integer productId) {
-        String user = restTemplate.getForObject("http://127.0.0.1:9000/user/" + userName, String.class);
+    public String createOrder(Integer productId) {
+//        String productName = restTemplate.getForObject("http://127.0.0.1:9000/product/" + productId, String.class);
+//
+//        String userName = restTemplate.getForObject("http://127.0.0.1:10000/user/" + userId, String.class);
+//        String result = restTemplate.getForObject("http://127.0.0.1:11000/stock/reduct/" + productId, String.class);
+        String shopCartResult = restTemplate.getForObject("http://stock-server/stock/remove/" + productId, String.class);
 
-        String product = restTemplate.getForObject("http://127.0.0.1:9000/product/" + productId, String.class);
-        String stock = restTemplate.getForObject("http://127.0.0.1:9000/product/" + productId, String.class);
-        String result = restTemplate.getForObject("http://127.0.0.1:9000/product/" + productId, String.class);
-
-        return "user:" + user + "购买了商品" + product + "，" + stock + "";
+        return "结果为" + shopCartResult;
     }
+
+    @GetMapping("/product/createTmp")
+    public String createOrderTmp(Integer userId, Integer productId) {
+        String productName = restTemplate.getForObject("http://127.0.0.1:9000/product/" + productId, String.class);
+
+        String userName = restTemplate.getForObject("http://127.0.0.1:10000/user/" + userId, String.class);
+        String result = restTemplate.getForObject("http://127.0.0.1:11000/stock/reduct/" + productId, String.class);
+        String shopCartResult = restTemplate.getForObject("http://127.0.0.1:12000/shopcart/remove?productId=" + productId, String.class);
+
+        return "user:" + userName + "购买了商品" + productName + "，" + result + "" + shopCartResult;
+    }
+
+
+    @Autowired
+    private DiscoveryClient discoveryClient;
+
+    @GetMapping("/order")
+    public String getStock() {
+        List<ServiceInstance> list = discoveryClient.getInstances("stock-server");
+        String a = "";
+        for (ServiceInstance serviceInstance : list) {
+            a = a + " " + serviceInstance.getHost();
+        }
+        return a;
+    }
+
+
 }

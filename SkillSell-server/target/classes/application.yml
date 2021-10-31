@@ -1,0 +1,15 @@
+server:
+  port: 13000
+spring:
+  cloud:
+    nacos:
+      discovery:
+        service: skillsell-service
+      server-addr: localhost:8848
+  datasource:
+    url: jdbc:mysql://localhost:3306/skillsell?serverTimezone=UTC
+    username: root
+    password: 123456
+  redis:
+    host: localhost
+    port: 6379

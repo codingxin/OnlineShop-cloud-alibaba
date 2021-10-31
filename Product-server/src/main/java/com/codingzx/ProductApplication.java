@@ -22,5 +22,20 @@ public class ProductApplication {
     }
 
 
+    /**
+     * 解决redis序列化导致key乱码异常
+     * @param redisConnectionFactory
+     * @return
+     */
+    @Bean
+    public RedisTemplate<Object, Object> redisTemplate(
+            RedisConnectionFactory redisConnectionFactory) {
+        RedisTemplate<Object, Object> template = new RedisTemplate<>();
+        template.setConnectionFactory(redisConnectionFactory);
+        //采用普通的key 为 字符串
+        template.setKeySerializer(new StringRedisSerializer());
+        return template;
+    }
+
 
 }

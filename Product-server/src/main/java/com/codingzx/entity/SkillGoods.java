@@ -7,7 +7,6 @@ package com.codingzx.entity;
  */
 
 import lombok.Data;
-import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -16,7 +15,6 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "skill_goods")
 @Data
-@ToString
 public class SkillGoods implements Serializable {
 
     public SkillGoods() {

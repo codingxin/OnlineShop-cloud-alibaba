@@ -13,3 +13,6 @@ spring:
       discovery:
         service: product-service
       server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080

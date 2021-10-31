@@ -6,6 +6,9 @@ spring:
       discovery:
         service: skillsell-service
       server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
   datasource:
     url: jdbc:mysql://localhost:3306/skillsell?serverTimezone=UTC
     username: root

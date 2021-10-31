@@ -14,19 +14,25 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ProductService {
 
+
+    private final static String productServiceUrl = "http://product-service/product/";
+
     @Autowired
     private RestTemplate restTemplate;
 
+    /**
+     * 从缓存中获取
+     * @param productId
+     * @return
+     */
     public SkillGoods getGoodById(Long productId) {
-        return restTemplate.getForObject("http://product-service/product/" + productId, SkillGoods.class);
+        return restTemplate.getForObject(productServiceUrl + productId, SkillGoods.class);
     }
 
     public void update(SkillGoods skillGood) {
-        ResponseEntity<String> result = restTemplate.postForEntity("http://product-service/product/", skillGood, String.class);
+        ResponseEntity<String> result = restTemplate.postForEntity(productServiceUrl, skillGood, String.class);
         System.out.println(result.getBody());
     }
-
-
 
 
 }

@@ -1,0 +1,29 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/skillsell?serverTimezone=UTC
+    username: root
+    password: 123456
+  cloud:
+    gateway:
+      routes:
+        - id: product
+          uri: http://localhost:9000
+          predicates:
+            - Host=product.codingzx.com**
+        - id: auth
+          uri: http://localhost:5000
+          predicates:
+            - Path=/oauth/token
+        - id: skill
+          uri: http://localhost:13000
+          predicates:
+            - Path=/skill
+    nacos:
+        discovery:
+          service: gateway-service
+        server-addr: localhost:8848
+    sentinel:
+        transport:
+          dashboard: localhost:8080

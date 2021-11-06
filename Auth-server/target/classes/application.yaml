@@ -1,0 +1,20 @@
+server:
+  port: 14000
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/skillsell?serverTimezone=UTC
+    username: root
+    password: 123456
+  cloud:
+    nacos:
+      discovery:
+        service: canal-server
+      server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+canal:
+  # 通讯的通道
+  server: 127.0.0.1:11111
+  # ./canal/conf/example 文件名是example
+  destination: example

@@ -14,13 +14,13 @@
         <module name="User-server" />
         <module name="Canal-server" />
         <module name="Sentinel-server" />
+        <module name="Auth-server" />
         <module name="Stock-server" />
         <module name="Configserver" />
         <module name="Order-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Auth-server" target="1.8" />
       <module name="Orderserver" target="1.8" />
       <module name="Productserver" target="1.8" />
       <module name="Userserver" target="1.8" />

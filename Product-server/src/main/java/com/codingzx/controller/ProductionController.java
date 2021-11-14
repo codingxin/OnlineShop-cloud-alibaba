@@ -25,6 +25,14 @@ public class ProductionController {
         return skillGood;
     }
 
+//    @GetMapping("/product/{productId}")
+//    @ResponseBody
+//    public String getProduct(@PathVariable Long productId) {
+//       return "这是9091新服务";
+//    }
+
+
+
     @PostMapping("/product")
     public String update(@RequestBody SkillGoods skillGood) {
         System.out.println("更新商品库存" + skillGood);

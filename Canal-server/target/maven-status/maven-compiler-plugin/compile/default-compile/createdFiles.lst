@@ -1,6 +1,0 @@
-com\codingzx\Application.class
-com\codingzx\config\FilterConfiguration.class
-com\codingzx\controller\TestController.class
-com\codingzx\config\SentinelConfiguration.class
-com\codingzx\config\RequestOriginParserDefinition.class
-com\codingzx\service\TestService.class

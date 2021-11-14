@@ -2,56 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6a9b3a6-a8e8-4051-bdd0-d4f848324ad8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/CronJobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/FilterConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/RequestOriginParserDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/SentinelConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/SkillSellApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/controller/SkillSellController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillGoodRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkillSell-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config-server/target/Config-server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Config-server/target/Config-server-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/Config-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/classes/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/AccessManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/AccessManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/ReactiveJdbcAuthenticationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/ReactiveJdbcAuthenticationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/target/classes/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/target/classes/com/codingzx/config/AccessManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/target/classes/com/codingzx/config/ReactiveJdbcAuthenticationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gateway-server/target/classes/com/codingzx/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/Order-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/OrderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/classes/com/codingzx/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Product-server/target/classes/com/codingzx/ProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/target/classes/com/codingzx/ProductApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-server/target/Product-server-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Product-server/target/classes/com/codingzx/controller/ProductionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Product-server/target/classes/com/codingzx/controller/ProductionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/Sentinel-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/com/codingzx/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/com/codingzx/config/FilterConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/com/codingzx/config/RequestOriginParserDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/com/codingzx/config/SentinelConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/com/codingzx/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/classes/com/codingzx/service/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sentinel-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/User-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/classes/com/codingzx/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
+    <list id="a3bc63e4-829e-40f9-b20a-7316093bb409" name="igore" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Order-server/target/" />
@@ -63,6 +76,11 @@
     <ignored mask="*.jar" />
     <ignored path="$PROJECT_DIR$/Sentinel-server/target/" />
     <ignored path="$PROJECT_DIR$/SkillSell-server/target/" />
+    <ignored mask="*.iml;*.txt" />
+    <ignored mask="*.class" />
+    <ignored path="$PROJECT_DIR$/Canal-server/target/" />
+    <ignored path="$PROJECT_DIR$/Auth-server/target/" />
+    <ignored path="$PROJECT_DIR$/Gateway-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,93 +107,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/ProductService.java">
+        <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="11" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java">
+        <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2294#2295#0" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillGoodRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillGoods.java">
+        <entry file="file://$PROJECT_DIR$/Product-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/CronJobService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillOrderRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -183,8 +136,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/ProductApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/ReactiveJdbcAuthenticationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="22" column="39" lean-forward="true" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -211,6 +194,25 @@
       <find>C:\Users\</find>
       <find>13000</find>
       <find>servi</find>
+      <find>已被秒杀</find>
+      <find>SKILL_GOODS_PHONE</find>
+      <find>redisTemplate.boundListOps(SKILL_GOODS_LIST)</find>
+      <find>redisTemplate.boundListOps(SKILL_GOODS_QUEUE + productId)</find>
+      <find>SKILL_GOODS_QUEUE</find>
+      <find>KILL_GOODS_QUEUE + productId</find>
+      <find>14000</find>
+      <find>5000</find>
+      <find>`</find>
+      <find>jdbc:mysql://localhost:3306/skillsell</find>
+      <find>react</find>
+      <find>ServerHttpSecurity</find>
+      <find>shared-configs[</find>
+      <find>discover</find>
+      <find>@EnableDiscoveryClient</find>
+      <find>spring-cloud-starter-gateway</find>
+      <find>spring-cloud-starter-alibaba-nacos-config</find>
+      <find>spring-cloud-starter-alibaba-nacos-discovery</find>
+      <find>开始加载商品</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -224,56 +226,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Product-server/src/main/java/ProductApplication.java" />
-        <option value="$PROJECT_DIR$/Stock-server/pom.xml" />
-        <option value="$PROJECT_DIR$/User-server/src/main/java/com/codingzx/UserApplication.java" />
-        <option value="$PROJECT_DIR$/User-server/src/main/resources/application.yml" />
-        <option value="D:/codingInstall/apache-maven-3.6.1-bin/apache-maven-3.6.1/conf/settings.xml" />
-        <option value="$PROJECT_DIR$/ShopCart-server/pom.xml" />
-        <option value="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/OrderApplication.java" />
-        <option value="$PROJECT_DIR$/ShopCart-server/src/main/java/com/codingzx/ShopCartApplication.java" />
-        <option value="$PROJECT_DIR$/ShopCart-server/src/main/java/com/codingzx/controller/ShopCartController.java" />
-        <option value="$PROJECT_DIR$/ShopCart-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/Stock-server/src/main/java/com.codingzx/StockApplication.java" />
-        <option value="$PROJECT_DIR$/Order-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/Stock-server/src/main/java/com.codingzx/controller/StockController.java" />
-        <option value="$PROJECT_DIR$/Config-server/src/main/java/codingzx/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/Config-server/src/main/java/codingzx/ConfigApplication.java" />
-        <option value="$PROJECT_DIR$/Config-server/src/main/java/codingzx/controller/ConfigController.java" />
-        <option value="$PROJECT_DIR$/Config-server/src/main/resources/bootstrap.yaml" />
-        <option value="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/Solution.java" />
-        <option value="$PROJECT_DIR$/Stock-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/Config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/Application.java" />
-        <option value="$PROJECT_DIR$/Sentinel-server/pom.xml" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/RequestOriginParserDefinition.java" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/SentinelConfiguration.java" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/FilterConfiguration.java" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/service/TestService.java" />
-        <option value="$PROJECT_DIR$/Sentinel-server/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/SkillSell-server/pom.xml" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/controller/SkillSellController.java" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/SkillSellApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/entity/SkillGoods.java" />
-        <option value="$PROJECT_DIR$/Product-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillOrder.java" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillOrderRepository.java" />
-        <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/SkillGoodService.java" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillGoods.java" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/controller/ProductService.java" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/controller/SkillGoodService.java" />
-        <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/dao/SkillGoodRepository.java" />
         <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/ProductService.java" />
         <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/CronJobService.java" />
-        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java" />
-        <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/Product-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillEntity.java" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/controller/SkillSellController.java" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillGoods.java" />
         <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillRedisEntity.java" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/SkillSellApplication.java" />
+        <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/SkillGoodService.java" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Sentinel-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/entity/AdEntity.java" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/controller/ADHandle.java" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/TestService.java" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/controller/ADController.java" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADHandle.java" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/CanalApplication.java" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADService.java" />
+        <option value="$PROJECT_DIR$/Canal-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/entity/User.java" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/service/UserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/AuthApplication.java" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/Auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Auth-server/src/main/resources/application.yaml" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/SkillSell-server/pom.xml" />
+        <option value="$PROJECT_DIR$/SkillSell-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/controller/ConfigController.java" />
+        <option value="$PROJECT_DIR$/ShopCart-server/src/main/java/com/codingzx/ShopCartApplication.java" />
+        <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yaml" />
+        <option value="$PROJECT_DIR$/Config-server/src/main/resources/bootstrap.yaml" />
+        <option value="$PROJECT_DIR$/Gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/AccessManager.java" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/ReactiveJdbcAuthenticationManager.java" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/Gateway-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Product-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -296,11 +299,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SkillSell-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="OnlineShop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="SkillSell-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="OnlineShop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -310,7 +313,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="300" />
     <option name="y" value="270" />
     <option name="width" value="1385" />
@@ -324,6 +327,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,176 +336,10 @@
               <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="Product-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="codingzx" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShop" type="462c0819:PsiDirectoryNode" />
-              <item name="SkillSell-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -514,7 +353,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SkillSell-server/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Gateway-server/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -528,21 +367,24 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingzx.controller" />
+      <recent name="com.codingzx.entity" />
+      <recent name="com.codingzx.dao" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\myproject\OnlineShop\Gateway-server\src\main\resources" />
+      <recent name="D:\github\myproject\OnlineShop\Gateway-server\src\main\java\com\codingzx" />
       <recent name="D:\github\myproject\OnlineShop" />
-      <recent name="D:\github\myproject\OnlineShop\Sentinel-server\src\main\java\com\codingzx" />
-      <recent name="D:\github\myproject\OnlineShop\Sentinel-server\src\main\java\com\codingzx\controller" />
-      <recent name="D:\github\myproject\OnlineShop\Sentinel-server\src\main\resources" />
-      <recent name="D:\github\myproject\OnlineShop\Config-server\src\main\java" />
+      <recent name="D:\github\myproject\OnlineShop\Canal-server\src\main\java\com\codingzx\controller" />
+      <recent name="D:\github\myproject\OnlineShop\Canal-server\src\main\java\com\codingzx\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -558,41 +400,55 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ProductApplication">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingzx.Solution" />
-      <module name="Order-server" />
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Auth-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codingzx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingzx.AuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codingzx.controller.TestController" />
-      <module name="Sentinel-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.codingzx.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Sentinel-server" />
+    <configuration name="CanalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Canal-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.codingzx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingzx.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingzx.CanalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Gate-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingzx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingzx.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Product-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingzx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingzx.ProductApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -624,19 +480,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.TestController" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.ProductApplication (1)" />
       <item itemvalue="Spring Boot.SkillSellApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.CanalApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SkillSellApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.TestController" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.SkillSellApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Spring Boot.CanalApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -646,6 +503,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f6a9b3a6-a8e8-4051-bdd0-d4f848324ad8" name="Default Changelist" comment="" />
+      <changelist id="a3bc63e4-829e-40f9-b20a-7316093bb409" name="igore" comment="" />
       <created>1628772468951</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -669,6 +527,12 @@
       <workItem from="1635560257034" duration="383000" />
       <workItem from="1635560719716" duration="1377000" />
       <workItem from="1635565778219" duration="9672000" />
+      <workItem from="1635645843846" duration="273000" />
+      <workItem from="1635646129286" duration="20837000" />
+      <workItem from="1636163814424" duration="21486000" />
+      <workItem from="1636857408848" duration="7774000" />
+      <workItem from="1636867869043" duration="194000" />
+      <workItem from="1636868197836" duration="1098000" />
     </task>
     <task id="LOCAL-00001" summary="提交nacos-config配置模块">
       <created>1629010367668</created>
@@ -684,11 +548,32 @@
       <option name="project" value="LOCAL" />
       <updated>1629119815943</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交秒杀逻辑代码">
+      <created>1635669723852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635669723852</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交网关服务;修改接口">
+      <created>1636179063389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636179063390</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改配置文件，调整包目录结构">
+      <created>1636860190920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636860190920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47802000" />
+    <option name="totallyTimeSpent" value="99464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,10 +585,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23138833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2843729" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25114855" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49899396" weight="0.54058194" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32924962" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924962" />
+      <window_info anchor="bottom" id="Docker" order="9" weight="0.32924962" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501006" side_tool="true" weight="0.5742726" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32924962" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49899396" visible="true" weight="0.16079633" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.19448699" />
+      <window_info anchor="bottom" id="Statistic" order="17" weight="0.55589586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24949698" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3494299" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="aiXcoder" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Translate" order="10" />
+      <window_info anchor="right" id="SciView" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.32997987" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26089874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -715,21 +642,21 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.10719755" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.14854518" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.7611026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32924962" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32924962" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924962" />
       <window_info anchor="bottom" id="Docker" order="9" weight="0.32924962" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033534" side_tool="true" weight="0.53751916" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32924962" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.34303215" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49966466" weight="0.3782542" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32924962" />
-      <window_info anchor="bottom" id="Statistic" order="17" weight="0.21898928" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.18683001" />
+      <window_info anchor="bottom" id="Statistic" order="17" weight="0.55589586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -742,45 +669,6 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Translate" order="10" />
       <window_info anchor="right" id="SciView" order="11" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18699732" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19142419" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46554366" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.4333844" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="16" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="aiXcoder" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Translate" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,6 +685,12 @@
               </option>
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
               </option>
               <option name="COLUMN_ORDER">
                 <list>
@@ -829,7 +723,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交nacos-config配置模块" />
     <MESSAGE value="提交本地代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交本地代码" />
+    <MESSAGE value="提交秒杀逻辑代码" />
+    <MESSAGE value="提交网关服务;修改接口" />
+    <MESSAGE value="修改配置文件，调整包目录结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置文件，调整包目录结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -853,429 +750,553 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>78</line>
           <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java</url>
-          <line>28</line>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/MutilThreadOrder.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADHandle.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADHandle.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADHandle.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADService.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/controller/UserController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/controller/UserController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/controller/ConfigController.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/AccessManager.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.2.RELEASE/spring-boot-2.3.2.RELEASE.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-resource-server/5.3.3.RELEASE/spring-security-oauth2-resource-server-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/server/resource/BearerTokenAuthenticationToken.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/DefaultLifecycleProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock-server/src/main/java/com.codingzx/StockApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="-102">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stock-server/src/main/java/com.codingzx/controller/StockController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JdbcTokenStore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.5.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.5.RELEASE.jar!/com/alibaba/cloud/nacos/discovery/NacosWatch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.4.1/nacos-client-1.4.1-sources.jar!/com/alibaba/nacos/client/naming/NacosNamingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="461" column="44" lean-forward="true" selection-start-line="461" selection-start-column="44" selection-end-line="461" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-web-servlet/1.8.0/sentinel-web-servlet-1.8.0.jar!/com/alibaba/csp/sentinel/adapter/servlet/CommonFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config-server/src/main/java/codingzx/controller/ConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config-server/src/main/java/codingzx/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config-server/src/main/resources/bootstrap.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="53" column="52" lean-forward="true" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/OrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="5" selection-start-line="26" selection-start-column="42" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order-server/src/main/java/com/codingzx/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/FilterConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/RequestOriginParserDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShopCart-server/src/main/java/com/codingzx/controller/ShopCartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/config/SentinelConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.8.0/sentinel-core-1.8.0.jar!/com/alibaba/csp/sentinel/spi/SpiOrder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.8.0/sentinel-core-1.8.0.jar!/com/alibaba/csp/sentinel/spi/ServiceLoaderUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.8.0/sentinel-core-1.8.0.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.5.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.5.RELEASE.jar!/com/alibaba/cloud/sentinel/custom/SentinelAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
-          <folding>
-            <element signature="e#5654#5655#0" expanded="true" />
-            <element signature="e#5705#5706#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.5.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.5.RELEASE-sources.jar!/com/alibaba/cloud/sentinel/custom/SentinelAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="122">
+          <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/javax/validation/constraints/AssertFalse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.3.3.RELEASE/spring-security-config-5.3.3.RELEASE.jar!/org/springframework/security/config/web/server/ServerHttpSecurity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="168" column="13" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/codingInstall/apache-maven-3.6.1-bin/apache-maven-3.6.1/conf/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="109" column="7" selection-start-line="109" selection-start-column="7" selection-end-line="109" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/resources/application.yaml" />
+    <entry file="file://$PROJECT_DIR$/ShopCart-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopCart-server/src/main/java/com/codingzx/controller/ShopCartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShopCart-server/src/main/java/com/codingzx/ShopCartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sentinel-server/src/main/java/com/codingzx/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.3.2.RELEASE/spring-data-jpa-2.3.2.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/entity/SkillGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Product-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/SkillSellApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="181">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product-server/target/classes/com/codingzx/ProductApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/scheduling/support/ScheduledMethodRunnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/CanalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/SkillGoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2748#2749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/controller/ADController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Canal-server/src/main/java/com/codingzx/service/ADService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/controller/SkillSellController.java">
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/dao/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java">
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/service/UserDetailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="348">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.3.3.RELEASE/spring-security-web-5.3.3.RELEASE.jar!/org/springframework/security/web/server/authorization/DelegatingReactiveAuthorizationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.8.RELEASE/reactor-core-3.3.8.RELEASE.jar!/reactor/core/publisher/MonoFlatMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="142" column="32" lean-forward="true" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.3.3.RELEASE/spring-security-config-5.3.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="90" column="30" lean-forward="true" selection-start-line="90" selection-start-column="30" selection-end-line="90" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config-server/src/main/java/codingzx/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/TokenStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/java/com/codingzx/AuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth-server/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkillSell-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yaml" />
+    <entry file="file://$PROJECT_DIR$/Config-server/src/main/resources/bootstrap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Product-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/AccessManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="88" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="28" lean-forward="true" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/controller/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/ProductApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/service/CronJobService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillOrderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/dao/SkillGoodRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillGoods.java">
+    <entry file="file://$PROJECT_DIR$/Product-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/entity/SkillOrder.java">
+    <entry file="file://$PROJECT_DIR$/Product-server/src/main/java/com/codingzx/controller/ProductionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="148">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SkillSell-server/src/main/java/com/codingzx/service/SkillGoodService.java">
+    <entry file="file://$PROJECT_DIR$/Gateway-server/src/main/java/com/codingzx/config/ReactiveJdbcAuthenticationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="79">
+          <caret line="22" column="39" lean-forward="true" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -1364,5 +1385,8 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

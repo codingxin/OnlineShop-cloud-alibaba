@@ -1,5 +1,6 @@
 package com.codingzx.controller;
 
+
 import com.codingzx.entity.SkillGoods;
 import com.codingzx.service.SkillGoodService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,9 +25,17 @@ public class ProductionController {
         return skillGood;
     }
 
+//    @GetMapping("/product/{productId}")
+//    @ResponseBody
+//    public String getProduct(@PathVariable Long productId) {
+//       return "这是9091新服务";
+//    }
+
+
+
     @PostMapping("/product")
     public String update(@RequestBody SkillGoods skillGood) {
-        System.out.println("更新商品库存");
+        System.out.println("更新商品库存" + skillGood);
         skillGoodService.update(skillGood);
         return "更新库存成功";
     }

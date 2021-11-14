@@ -2,7 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Auth-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Canal-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Order-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Product-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Sentinel-server" charset="UTF-8" />

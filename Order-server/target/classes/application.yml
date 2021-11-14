@@ -1,8 +1,0 @@
-server:
-  port: 8002
-spring:
-  cloud:
-    nacos:
-      discovery:
-        service: order-server
-      server-addr:  localhost:8848

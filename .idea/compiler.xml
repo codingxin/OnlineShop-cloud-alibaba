@@ -9,14 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Gate-server" />
         <module name="Product-server" />
+        <module name="Config-server" />
         <module name="SkillSell-server" />
+        <module name="Gateway-server" />
         <module name="Order-server" />
         <module name="User-server" />
-        <module name="Stock-server" />
         <module name="Sentinel-server" />
         <module name="Auth-server" />
-        <module name="Configserver" />
+        <module name="Stock-server" />
         <module name="ShopCart-server" />
+        <module name="Configserver" />
         <module name="Canal-server" />
       </profile>
     </annotationProcessing>
@@ -30,8 +32,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Auth-server" options="-parameters" />
       <module name="Canal-server" options="-parameters" />
+      <module name="Config-server" options="-parameters" />
       <module name="Configserver" options="-parameters" />
       <module name="Gate-server" options="-parameters" />
+      <module name="Gateway-server" options="-parameters" />
       <module name="OnlineShop" options="-parameters" />
       <module name="Order-server" options="-parameters" />
       <module name="Orderserver" options="-parameters" />

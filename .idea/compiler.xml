@@ -10,14 +10,14 @@
         <module name="Gate-server" />
         <module name="Product-server" />
         <module name="SkillSell-server" />
-        <module name="ShopCart-server" />
+        <module name="Configserver" />
         <module name="User-server" />
-        <module name="Canal-server" />
+        <module name="Stock-server" />
+        <module name="Order-server" />
         <module name="Sentinel-server" />
         <module name="Auth-server" />
-        <module name="Stock-server" />
-        <module name="Configserver" />
-        <module name="Order-server" />
+        <module name="ShopCart-server" />
+        <module name="Canal-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

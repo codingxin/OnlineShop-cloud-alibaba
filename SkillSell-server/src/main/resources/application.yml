@@ -16,3 +16,8 @@ spring:
   redis:
     host: localhost
     port: 6379
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:5000/user/current/get
+      id: skillsell-service

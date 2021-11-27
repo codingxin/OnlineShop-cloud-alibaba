@@ -1,5 +1,8 @@
 package com.codingzx.controller;
 
+import com.codingzx.dao.OrderResposity;
+import com.codingzx.entity.Order;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -46,15 +49,46 @@ public class OrderController {
     @Autowired
     private DiscoveryClient discoveryClient;
 
+
+    @Autowired
+    private OrderResposity orderResposity;
+
     @GetMapping("/order")
     public String getStock() {
-        List<ServiceInstance> list = discoveryClient.getInstances("stock-server");
+        List<ServiceInstance> list = discoveryClient.getInstances("stock-service");
         String a = "";
         for (ServiceInstance serviceInstance : list) {
             a = a + " " + serviceInstance.getHost();
         }
         return a;
     }
+
+
+
+    @GlobalTransactional(timeoutMills = 300000, name = "spring-cloud-demo-tx")
+    @GetMapping("/order/create")
+    public String createOrder(Integer productId, Integer userId) {
+        /**
+         * 分布式事务seata 测试
+         * 订单接口  先保存订单
+         * 调用扣减库存服务接口
+         *  如果发生异常，订单回滚
+         *  否则扣减库存
+         *
+         *
+         *
+         */
+        Order order = new Order();
+        order.setProductId(productId);
+        order.setUserId(userId);
+        orderResposity.save(order);
+        String result = restTemplate.getForObject("http://stock-service/stock/stock/reduce/" + productId, String.class);
+        if (!result.equals("success")) {
+            throw new RuntimeException();
+        }
+        return result;
+    }
+
 
 
 }

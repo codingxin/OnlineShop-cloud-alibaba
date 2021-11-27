@@ -1,8 +1,36 @@
 server:
   port: 8002
 spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/orderdb?serverTimezone=UTC
+    username: root
+    password: 123456
   cloud:
     nacos:
       discovery:
-        service: order-server
-      server-addr:  localhost:8848
+        service: order-service
+        group: SEATA_GROUP
+      server-addr: localhost:8848
+  application:
+    name: order-service
+seata:
+  enabled: true
+  # 和注册到nacos的 配置 后缀相同
+  tx-service-group: order-service
+  config:
+    type: nacos
+    nacos:
+      namespace: public
+      serverAddr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      userName: "nacos"
+      password: "nacos"
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      serverAddr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      namespace: public
+      userName: "nacos"
+      password: "nacos"
